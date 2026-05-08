@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="2">
   <diagram name="Part A — Flowchart" id="rOSCwUveCeIAAzEqHd6I">
-    <mxGraphModel dx="1069" dy="2508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="847" dy="1728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,7 +30,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AZqyQRhYetX7vdfJGeqa-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=light-dark(#432D57,#190033);" value="Are All Fields Filled In?" vertex="1">
-          <mxGeometry height="100" width="90" x="50" y="-475" as="geometry" />
+          <mxGeometry height="100" width="90" x="50" y="-540" as="geometry" />
         </mxCell>
         <mxCell id="AZqyQRhYetX7vdfJGeqa-10" edge="1" parent="1" source="AZqyQRhYetX7vdfJGeqa-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AZqyQRhYetX7vdfJGeqa-3">
           <mxGeometry relative="1" as="geometry">
@@ -38,7 +38,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AZqyQRhYetX7vdfJGeqa-7" parent="1" style="html=1;dashed=1;whiteSpace=wrap;fillColor=light-dark(#E51400,#FF3333);fontColor=#ffffff;strokeColor=light-dark(#B20000,#330000);" value="Error: Missing Fields" vertex="1">
-          <mxGeometry height="50" width="170" x="40" y="-310" as="geometry" />
+          <mxGeometry height="50" width="170" x="40" y="-400" as="geometry" />
         </mxCell>
         <mxCell id="AZqyQRhYetX7vdfJGeqa-8" edge="1" parent="1" source="AZqyQRhYetX7vdfJGeqa-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.319;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" target="AZqyQRhYetX7vdfJGeqa-7">
           <mxGeometry relative="1" as="geometry" />
@@ -67,7 +67,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AZqyQRhYetX7vdfJGeqa-11" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;align=center;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;Is the Amount Greater Than Zero?&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="200" x="225" y="-475" as="geometry" />
+          <mxGeometry height="100" width="200" x="225" y="-540" as="geometry" />
         </mxCell>
         <mxCell id="AZqyQRhYetX7vdfJGeqa-16" edge="1" parent="1" source="AZqyQRhYetX7vdfJGeqa-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AZqyQRhYetX7vdfJGeqa-3">
           <mxGeometry relative="1" as="geometry">
@@ -75,7 +75,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AZqyQRhYetX7vdfJGeqa-15" parent="1" style="html=1;dashed=1;whiteSpace=wrap;fillColor=light-dark(#E51400,#FF3333);fontColor=#ffffff;strokeColor=light-dark(#B20000,#330000);" value="Error: Invalid Amount" vertex="1">
-          <mxGeometry height="50" width="170" x="240" y="-310" as="geometry" />
+          <mxGeometry height="50" width="170" x="240" y="-400" as="geometry" />
         </mxCell>
         <mxCell id="AZqyQRhYetX7vdfJGeqa-22" edge="1" parent="1" source="AZqyQRhYetX7vdfJGeqa-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="AZqyQRhYetX7vdfJGeqa-21">
           <mxGeometry relative="1" as="geometry" />
@@ -94,16 +94,46 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AZqyQRhYetX7vdfJGeqa-18" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;align=center;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;Do Total Debits Equal Total Credits?&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="200" x="500" y="-475" as="geometry" />
+          <mxGeometry height="100" width="200" x="490" y="-540" as="geometry" />
         </mxCell>
         <mxCell id="AZqyQRhYetX7vdfJGeqa-26" edge="1" parent="1" source="AZqyQRhYetX7vdfJGeqa-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;dashed=1;" target="AZqyQRhYetX7vdfJGeqa-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AZqyQRhYetX7vdfJGeqa-21" parent="1" style="html=1;dashed=1;whiteSpace=wrap;fillColor=light-dark(#E51400,#FF3333);fontColor=#ffffff;strokeColor=light-dark(#B20000,#330000);" value="Error: Out of Balance" vertex="1">
-          <mxGeometry height="50" width="170" x="515" y="-310" as="geometry" />
+          <mxGeometry height="50" width="170" x="505" y="-400" as="geometry" />
+        </mxCell>
+        <mxCell id="W9mOl89YQN2EXskZ2OLb-2" edge="1" parent="1" source="AZqyQRhYetX7vdfJGeqa-27" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="W9mOl89YQN2EXskZ2OLb-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AZqyQRhYetX7vdfJGeqa-27" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#fa6800;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#C73500,#331A00);" value="Save Entry to Database" vertex="1">
-          <mxGeometry height="50" width="170" x="870" y="-450" as="geometry" />
+          <mxGeometry height="50" width="170" x="760" y="-515" as="geometry" />
+        </mxCell>
+        <mxCell id="W9mOl89YQN2EXskZ2OLb-4" edge="1" parent="1" source="W9mOl89YQN2EXskZ2OLb-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="W9mOl89YQN2EXskZ2OLb-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W9mOl89YQN2EXskZ2OLb-1" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#fa6800;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#C73500,#331A00);" value="Clear Form &amp;amp; Refresh Register" vertex="1">
+          <mxGeometry height="50" width="170" x="760" y="-400" as="geometry" />
+        </mxCell>
+        <mxCell id="W9mOl89YQN2EXskZ2OLb-5" edge="1" parent="1" source="W9mOl89YQN2EXskZ2OLb-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="AZqyQRhYetX7vdfJGeqa-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="197.64705882352942" y="-520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W9mOl89YQN2EXskZ2OLb-6" connectable="0" parent="W9mOl89YQN2EXskZ2OLb-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.0838" y="-4" as="geometry">
+            <mxPoint x="139" y="289" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W9mOl89YQN2EXskZ2OLb-7" edge="1" parent="1" source="W9mOl89YQN2EXskZ2OLb-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="W9mOl89YQN2EXskZ2OLb-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="844.7647058823529" y="-160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W9mOl89YQN2EXskZ2OLb-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;align=center;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;Post Another Entry?&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="140" x="775" y="-300" as="geometry" />
+        </mxCell>
+        <mxCell id="W9mOl89YQN2EXskZ2OLb-8" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#008a00;fontColor=#ffffff;strokeColor=light-dark(#005700,#003300);gradientColor=none;" value="&lt;b&gt;END&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="800" y="-150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
