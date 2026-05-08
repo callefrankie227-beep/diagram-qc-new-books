@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="2">
   <diagram name="Part A — Flowchart" id="rOSCwUveCeIAAzEqHd6I">
-    <mxGraphModel dx="238" dy="1560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="135" dy="1253" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,6 +21,14 @@
             <mxPoint x="280" y="-630" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="AZqyQRhYetX7vdfJGeqa-12" edge="1" parent="1" source="AZqyQRhYetX7vdfJGeqa-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="AZqyQRhYetX7vdfJGeqa-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AZqyQRhYetX7vdfJGeqa-13" connectable="0" parent="AZqyQRhYetX7vdfJGeqa-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.2884" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="AZqyQRhYetX7vdfJGeqa-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=light-dark(#432D57,#190033);" value="Are All Fields Filled In?" vertex="1">
           <mxGeometry height="100" width="90" x="239" y="-480" as="geometry" />
         </mxCell>
@@ -28,7 +36,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AZqyQRhYetX7vdfJGeqa-7" parent="1" style="html=1;dashed=1;whiteSpace=wrap;fillColor=light-dark(#E51400,#FF3333);fontColor=#ffffff;strokeColor=light-dark(#B20000,#330000);" value="Error: Missing Fields" vertex="1">
-          <mxGeometry height="50" width="170" x="239" y="-310" as="geometry" />
+          <mxGeometry height="50" width="170" x="280" y="-310" as="geometry" />
         </mxCell>
         <mxCell id="AZqyQRhYetX7vdfJGeqa-8" edge="1" parent="1" source="AZqyQRhYetX7vdfJGeqa-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.294;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" target="AZqyQRhYetX7vdfJGeqa-7">
           <mxGeometry relative="1" as="geometry" />
@@ -37,6 +45,27 @@
           <mxGeometry relative="1" x="-0.4204" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="AZqyQRhYetX7vdfJGeqa-14" edge="1" parent="1" source="AZqyQRhYetX7vdfJGeqa-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="AZqyQRhYetX7vdfJGeqa-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="589.6190476190476" y="-300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AZqyQRhYetX7vdfJGeqa-17" connectable="0" parent="AZqyQRhYetX7vdfJGeqa-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.1426" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AZqyQRhYetX7vdfJGeqa-11" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;align=center;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;Is the Amount Greater Than Zero?&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="200" x="490" y="-490" as="geometry" />
+        </mxCell>
+        <mxCell id="AZqyQRhYetX7vdfJGeqa-16" edge="1" parent="1" source="AZqyQRhYetX7vdfJGeqa-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;dashed=1;dashPattern=8 8;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="AZqyQRhYetX7vdfJGeqa-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="-430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AZqyQRhYetX7vdfJGeqa-15" parent="1" style="html=1;dashed=1;whiteSpace=wrap;fillColor=light-dark(#E51400,#FF3333);fontColor=#ffffff;strokeColor=light-dark(#B20000,#330000);" value="Error: Invalid Amount" vertex="1">
+          <mxGeometry height="50" width="170" x="505" y="-310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
